@@ -1,0 +1,50 @@
+﻿@charset "utf-8";
+/* CSS Document */
+/* ---- init ---- */
+body{ font:12px Arial, "宋体", Verdana, sans-serif; color:#343434; line-height:24px; background:url(../images/bg-wood.jpg) repeat; text-align:center}
+h1, h2, h3, h4, h5, h6, p, ul, ol, dl, dt, dd, li, body, form, input, button, img, cite, strong, em, table, td, th { padding:0; margin:0;}
+h1, h2, h3, h4, h5, h6, h7 { font-size:15px; color:#505050; line-height:25px;}
+img, table, td, th { border:0;}
+li,dd,dt{ list-style-type:none;}
+ol,ul,dl{ list-style:none;}
+em{ padding:0px 8px;}
+img{ vertical-align:top; border:none;}
+a:link,a:visited{ color:#343434; text-decoration:none;}
+a:hover{ color:#343434; text-decoration:underline;}
+.clear{ clear:both; height:0; line-height:0; font-size:0; overflow:hidden;}
+#wrap{ width:960px; height:auto; margin:-24px auto 0px auto!important; margin:-15px auto 0px auto; overflow:hidden}
+/* ---- header ---- */
+#header{ width:960px; height:auto; background:url(../images/header_bj.png) no-repeat center top; padding-top:50px; float:left;}
+.header_top{ width:960px; height:7px; overflow:hidden; float:left;}
+.header_top_left{ width:7px; height:7px; background:url(../images/main_top_left.png) no-repeat; overflow:hidden; float:left;}
+.header_top_center{ width:946px; height:7px; background:#ccc4af; overflow:hidden; float:left;}
+.header_top_right{ width:7px; height:7px; background:url(../images/main_top_right.png) no-repeat; overflow:hidden; float:right;}
+.header_bottom_left{ background:url(../images/main_bottom_left.png) no-repeat;}
+.header_bottom_right{ background:url(../images/main_bottom_right.png) no-repeat;}
+.header_content{ width:920px!important; width:960px; _width:920px; padding:0px 20px; height:auto; background:#ccc4af; float:left;}
+.sub_nav{ width:960px; margin-top:-20px; display:inline; text-align:right; color:#dad3c0; float:left;}
+.sub_nav a:link,.sub_nav a:visited,.sub_nav a:hover{ color:#dad3c0; text-decoration:none;}
+.logo{ width:134px; height:54px; margin-top:15px; padding-bottom:-5px; float:left; position:relative}
+.header_content_content{ float:right;}
+.header_content_content h3{ padding-top:10px; margin-bottom:-5px!important; margin-bottom:2px;}
+.header_address{ width:360px; padding-top:5px; height:auto; float:right;}
+.header_address_menu{ width: 360px;}
+.header_address_menu li{ display:block; color:#4a3c34; float: left; padding:5px 8px 0px 8px; line-height:15px; cursor:pointer;}
+.header_address_menu li.hover{ background: #c1b8a2;}
+.header_address_main{ clear:both; background: #c1b8a2; line-height:24px; padding:0px 8px;}
+#header_address_main0 ul{ display: none;}
+#header_address_main0 ul.block{ display: block;}
+.menu{ width:950px!important; width:960px; _width:950px; padding-left:10px; height:50px; background:url(../images/menu_bj.gif) repeat; float:left;}
+.menu ul li{ height:38px; padding-left:22px; color:#8d8571; text-align:center; line-height:15px; padding-top:12px; font-size:11px; float:left;}
+.menu ul li a:link,.menu ul li a:visited,.menu ul li a:hover{ color:#e0ddd0; font-size:14px;}
+
+
+/* ---- footer ---- */
+#footer{ width:960px; height:auto; margin:0 auto; padding:15px 0px 50px 0px; line-height:25px; color:#756e61; text-align:center;}
+
+/* ---- page ---- */
+.page{ width:500px; height:28px!important; height:68px; padding:15px 0px 25px 0px; line-height:26px; float:left;}
+.page li{ padding:0px 7px; height:26px!important; height:30px; border:1px solid #b3ab98; margin:0px 1px; float:left;}
+.page li a:link,.page li a:visited{ color:#6d6253; text-decoration:none;}
+.page li a:hover{ color:#fff; text-decoration:none;}
+#page_now{ font-weight:bold; background:#b3ab98;}

@@ -1,0 +1,821 @@
+/****************************************************************************          网站整体风格定义 */
+BODY {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	/* ==========    默认页面文字、大小、行距、颜色   =============== */
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 12px;
+	color: #555555;
+	text-decoration: none;
+
+}
+/****************************************************************************       网站默认连接定义 */
+	/* ==========    带链接状态    =============== */
+A:link {
+	TEXT-DECORATION: none;
+	font-size: 12px;
+	color: #000000;
+	}
+	/* ==========    鼠标点击后，链接状态    =============== */
+A:visited {
+	COLOR: #666666; 
+	TEXT-DECORATION: none;
+	font-size: 12px;
+	}
+    /* ==========    鼠标经过，链接状态色    =============== */
+A:hover {
+	COLOR: #000000; 
+	TEXT-DECORATION: underline; 
+	font-size: 12px;
+	}
+	/* ==========    鼠标无点击过，链接状态    =============== */
+A:active {
+	TEXT-DECORATION: none;
+	font-size: 12px;
+}
+
+/****************************************************************************       中灰连接定义 */
+
+	/* ==========    带链接状态    =============== */
+A.link_6662_12:link {
+	TEXT-DECORATION: none;
+	font-size: 12px;
+	color: #666;
+	}
+	/* ==========    鼠标点击后，链接状态    =============== */
+A.link_6662_12:visited {
+	COLOR: #666;
+	TEXT-DECORATION: none;
+	font-size: 12px;
+	}
+    /* ==========    鼠标经过，链接状态色    =============== */
+A.link_6662_12:hover {
+	COLOR: #666; 
+	LEFT: 1px; 
+	POSITION: relative; 
+	TEXT-DECORATION: underline; 
+	TOP: 1px;
+	font-size: 12px;
+	}
+	/* ==========    鼠标无点击过，链接状态    =============== */
+A.link_6662_12:active {
+	TEXT-DECORATION: none;
+	font-size: 12px;
+}
+	/* ==========    带链接状态    =============== */
+A.link_666_12:link {
+	TEXT-DECORATION: none;
+	font-size: 12px;
+	color: #666;
+	}
+	/* ==========    鼠标点击后，链接状态    =============== */
+A.link_666_12:visited {
+	COLOR: #666;
+	TEXT-DECORATION: none;
+	font-size: 12px;
+	}
+    /* ==========    鼠标经过，链接状态色    =============== */
+A.link_666_12:hover {
+	COLOR: #666; 
+	LEFT: 1px; 
+	POSITION: relative; 
+	TEXT-DECORATION: underline; 
+	TOP: 1px;
+	font-size: 12px;
+	}
+	/* ==========    鼠标无点击过，链接状态    =============== */
+A.link_666_12:active {
+	TEXT-DECORATION: none;
+	font-size: 12px;
+}
+	/* ==========    带链接状态    =============== */
+A.link_666_14:link {
+	TEXT-DECORATION: none;
+	font-size: 14px;
+	color: #666;
+	}
+	/* ==========    鼠标点击后，链接状态    =============== */
+A.link_666_14:visited {
+	COLOR: #666;
+	TEXT-DECORATION: none;
+	font-size: 14px;
+	}
+    /* ==========    鼠标经过，链接状态色    =============== */
+A.link_666_14:hover {
+	COLOR: #000; 
+	LEFT: 1px; 
+	POSITION: relative; 
+	TEXT-DECORATION: underline; 
+	TOP: 1px;
+	font-size: 14px;
+	}
+	/* ==========    鼠标无点击过，链接状态    =============== */
+A.link_666_14:active {
+	TEXT-DECORATION: none;
+	font-size: 14px;
+}
+
+	/* ==========    带链接状态    =============== */
+A.link_666_16:link {
+	TEXT-DECORATION: none;
+	font-size: 16px;
+	color: #666;
+	}
+	/* ==========    鼠标点击后，链接状态    =============== */
+A.link_666_16:visited {
+	COLOR: #666;
+	TEXT-DECORATION: none;
+	font-size: 16px;
+	}
+    /* ==========    鼠标经过，链接状态色    =============== */
+A.link_666_16:hover {
+	COLOR: #000; 
+	LEFT: 1px; 
+	POSITION: relative; 
+	TEXT-DECORATION: underline; 
+	TOP: 1px;
+	font-size: 16px;
+	}
+	/* ==========    鼠标无点击过，链接状态    =============== */
+A.link_666_16:active {
+	TEXT-DECORATION: none;
+	font-size: 16px;
+}
+
+/****************************************************************************       黑色连接定义 */
+	/* ==========    带链接状态    =============== */
+A.link_000_12:link {
+	TEXT-DECORATION: none;
+	font-size: 12px;
+	color: #000;
+	}
+	/* ==========    鼠标点击后，链接状态    =============== */
+A.link_000_12:visited {
+	COLOR: #000;
+	TEXT-DECORATION: none;
+	font-size: 12px;
+	}
+    /* ==========    鼠标经过，链接状态色    =============== */
+A.link_000_12:hover {
+	color:#F30;
+	LEFT: 1px; 
+	POSITION: relative; 
+	TEXT-DECORATION: underline; 
+	TOP: 1px;
+	font-size: 12px;
+	}
+	/* ==========    鼠标无点击过，链接状态    =============== */
+A.link_000_12:active {
+	TEXT-DECORATION: none;
+	font-size: 12px;
+}
+	/* ==========    带链接状态    =============== */
+A.link_000_14:link {
+	TEXT-DECORATION: none;
+	font-size: 14px;
+	color: #000;
+	}
+	/* ==========    鼠标点击后，链接状态    =============== */
+A.link_000_14:visited {
+	COLOR: #000;
+	TEXT-DECORATION: none;
+	font-size: 14px;
+	}
+    /* ==========    鼠标经过，链接状态色    =============== */
+A.link_666_14:hover {
+	color:#F30;
+	LEFT: 1px; 
+	POSITION: relative; 
+	TEXT-DECORATION: underline; 
+	TOP: 1px;
+	font-size: 14px;
+	}
+	/* ==========    鼠标无点击过，链接状态    =============== */
+A.link_000_14:active {
+	TEXT-DECORATION: none;
+	font-size: 14px;
+}
+
+	/* ==========    带链接状态    =============== */
+A.link_000_16:link {
+	TEXT-DECORATION: none;
+	font-size: 16px;
+	color: #000;
+	}
+	/* ==========    鼠标点击后，链接状态    =============== */
+A.link_000_16:visited {
+	COLOR: #000;
+	TEXT-DECORATION: none;
+	font-size: 16px;
+	}
+    /* ==========    鼠标经过，链接状态色    =============== */
+A.link_000_16:hover {
+	color:#F30;
+	LEFT: 1px; 
+	POSITION: relative; 
+	TEXT-DECORATION: underline; 
+	TOP: 1px;
+	font-size: 16px;
+	}
+	/* ==========    鼠标无点击过，链接状态    =============== */
+A.link_000_16:active {
+	TEXT-DECORATION: none;
+	font-size: 16px;
+}
+/****************************************************************************       白色连接定义 */
+	/* ==========    带链接状态    =============== */
+A.link_FFF_12:link {
+	TEXT-DECORATION: none;
+	font-size: 12px;
+	color: #FFF;
+	}
+	/* ==========    鼠标点击后，链接状态    =============== */
+A.link_FFF_12:visited {
+	COLOR: #FFF;
+	TEXT-DECORATION: none;
+	font-size: 12px;
+	}
+    /* ==========    鼠标经过，链接状态色    =============== */
+A.link_FFF_12:hover {
+	color:#FF0
+	LEFT: 1px; 
+	POSITION: relative; 
+	TEXT-DECORATION: underline; 
+	TOP: 1px;
+	font-size: 12px;
+	}
+	/* ==========    鼠标无点击过，链接状态    =============== */
+A.link_FFF_12:active {
+	TEXT-DECORATION: none;
+	font-size: 12px;
+}
+	/* ==========    带链接状态    =============== */
+A.link_FFF_14:link {
+	TEXT-DECORATION: none;
+	font-size: 14px;
+	color: #FFF;
+	}
+	/* ==========    鼠标点击后，链接状态    =============== */
+A.link_FFF_14:visited {
+	COLOR: #FFF;
+	TEXT-DECORATION: none;
+	font-size: 14px;
+	}
+    /* ==========    鼠标经过，链接状态色    =============== */
+A.link_FFF_14:hover {
+	color:#F00;
+	LEFT: 1px; 
+	POSITION: relative; 
+	TEXT-DECORATION: underline; 
+	TOP: 1px;
+	font-size: 14px;
+	}
+	/* ==========    鼠标无点击过，链接状态    =============== */
+A.link_FFF_14:active {
+	TEXT-DECORATION: none;
+	font-size: 14px;
+}
+
+	/* ==========    带链接状态    =============== */
+A.link_FFF_16:link {
+	TEXT-DECORATION: none;
+	font-size: 16px;
+	color: #FFF;
+	}
+	/* ==========    鼠标点击后，链接状态    =============== */
+A.link_FFF_16:visited {
+	COLOR: #FFF;
+	TEXT-DECORATION: none;
+	font-size: 16px;
+	}
+    /* ==========    鼠标经过，链接状态色    =============== */
+A.link_FFF_16:hover {
+	color:#FF0
+	LEFT: 1px; 
+	POSITION: relative; 
+	TEXT-DECORATION: underline; 
+	TOP: 1px;
+	font-size: 16px;
+	}
+	/* ==========    鼠标无点击过，链接状态    =============== */
+A.link_FFF_16:active {
+	TEXT-DECORATION: none;
+	font-size: 16px;
+}
+
+/****************************************************************************        红色连接定义 */
+	/* ==========    带链接状态    =============== */
+A.link_FF0000_12:link {
+	TEXT-DECORATION: none;
+	font-size: 12px;
+	color:#F00;
+	}
+	/* ==========    鼠标点击后，链接状态    =============== */
+A.link_FF0000_12:visited {
+	color:#F00;
+	TEXT-DECORATION: none;
+	font-size: 12px;
+	}
+    /* ==========    鼠标经过，链接状态色    =============== */
+A.link_FF0000_12:hover {
+	color:#000;
+	LEFT: 1px; 
+	POSITION: relative; 
+	TEXT-DECORATION: underline; 
+	TOP: 1px;
+	font-size: 12px;
+	}
+	/* ==========    鼠标无点击过，链接状态    =============== */
+A.link_FF0000_12:active {
+	TEXT-DECORATION: none;
+	font-size: 12px;
+}
+	/* ==========    带链接状态    =============== */
+A.link_FF0000_14:link {
+	TEXT-DECORATION: none;
+	font-size: 14px;
+	color:#FF0;
+	}
+	/* ==========    鼠标点击后，链接状态    =============== */
+A.link_FF0000_14:visited {
+	color:#FF0;
+	TEXT-DECORATION: none;
+	font-size: 14px;
+	}
+    /* ==========    鼠标经过，链接状态色    =============== */
+A.link_FF0000_14:hover {
+	color:#FFF;
+	LEFT: 1px; 
+	POSITION: relative; 
+	TEXT-DECORATION: underline; 
+	TOP: 1px;
+	font-size: 14px;
+	}
+	/* ==========    鼠标无点击过，链接状态    =============== */
+A.link_FF0000_14:active {
+	TEXT-DECORATION: none;
+	font-size: 14px;
+}
+
+	/* ==========    带链接状态    =============== */
+A.link_FF0000_16:link {
+	TEXT-DECORATION: none;
+	font-size: 16px;
+	color: #F00;
+	}
+	/* ==========    鼠标点击后，链接状态    =============== */
+A.link_FF0000_16:visited {
+	COLOR: #F00;
+	TEXT-DECORATION: none;
+	font-size: 16px;
+	}
+    /* ==========    鼠标经过，链接状态色    =============== */
+A.link_FF0000_16:hover {
+	color:#000;
+	LEFT: 1px; 
+	POSITION: relative; 
+	TEXT-DECORATION: underline; 
+	TOP: 1px;
+	font-size: 16px;
+	}
+	/* ==========    鼠标无点击过，链接状态    =============== */
+A.link_FF0000_16:active {
+	TEXT-DECORATION: none;
+	font-size: 16px;
+}
+/****************************************************************************        红色连接定义 */
+	/* ==========    带链接状态    =============== */
+A.link_FFFF00_12:link {
+	TEXT-DECORATION: none;
+	font-size: 12px;
+	color: #F00;
+	}
+	/* ==========    鼠标点击后，链接状态    =============== */
+A.link_FFFF00_12:visited {
+	color: #F00;
+	TEXT-DECORATION: none;
+	font-size: 12px;
+	}
+    /* ==========    鼠标经过，链接状态色    =============== */
+A.link_FFFF00_12:hover {
+	color:#000;
+	LEFT: 1px; 
+	POSITION: relative; 
+	TEXT-DECORATION: underline; 
+	TOP: 1px;
+	font-size: 12px;
+	}
+	/* ==========    鼠标无点击过，链接状态    =============== */
+A.link_FFFF00_12:active {
+	TEXT-DECORATION: none;
+	font-size: 12px;
+}
+	/* ==========    带链接状态    =============== */
+A.link_FFFF00_14:link {
+	TEXT-DECORATION: none;
+	font-size: 14px;
+	color: #F00;
+	}
+	/* ==========    鼠标点击后，链接状态    =============== */
+A.link_FF0000_14:visited {
+	color: #F00;
+	TEXT-DECORATION: none;
+	font-size: 14px;
+	}
+    /* ==========    鼠标经过，链接状态色    =============== */
+A.link_FFFF00_14:hover {
+	color:#000;
+	LEFT: 1px; 
+	POSITION: relative; 
+	TEXT-DECORATION: underline; 
+	TOP: 1px;
+	font-size: 14px;
+	}
+	/* ==========    鼠标无点击过，链接状态    =============== */
+A.link_FFFF00_14:active {
+	TEXT-DECORATION: none;
+	font-size: 14px;
+}
+
+	/* ==========    带链接状态    =============== */
+A.link_FFFF00_16:link {
+	TEXT-DECORATION: none;
+	font-size: 16px;
+	color: #F00;
+	}
+	/* ==========    鼠标点击后，链接状态    =============== */
+A.link_FFFF00_16:visited {
+	COLOR: #F00;
+	TEXT-DECORATION: none;
+	font-size: 16px;
+	}
+    /* ==========    鼠标经过，链接状态色    =============== */
+A.link_FFFF00_16:hover {
+	color:#000;
+	LEFT: 1px; 
+	POSITION: relative; 
+	TEXT-DECORATION: underline; 
+	TOP: 1px;
+	font-size: 16px;
+	}
+	/* ==========    鼠标无点击过，链接状态    =============== */
+A.link_FFFF00_16:active {
+	TEXT-DECORATION: none;
+	font-size: 16px;
+}
+
+	/* ==========    带链接状态    =============== */
+A.link_cf9494_12:link {
+	TEXT-DECORATION: none;
+	font-size: 12px;
+	color:#A68360;
+	}
+	/* ==========    鼠标点击后，链接状态    =============== */
+A.link_cf9494_12:visited {
+	color:#A68360;
+	TEXT-DECORATION: none;
+	font-size: 12px;
+	}
+    /* ==========    鼠标经过，链接状态色    =============== */
+A.link_cf9494_12:hover {
+	color:#FFF;
+	LEFT: 1px; 
+	POSITION: relative; 
+	TEXT-DECORATION: underline; 
+	TOP: 1px;
+	font-size: 12px;
+	}
+	/* ==========    鼠标无点击过，链接状态    =============== */
+A.link_cf9494_12:active {
+	TEXT-DECORATION: none;
+	font-size: 12px;
+}
+	/* ==========    带链接状态    =============== */
+A.link_cf9494_10:link {
+	TEXT-DECORATION: none;
+	font-size: 10px;
+	color:#EAE2D0;
+	}
+	/* ==========    鼠标点击后，链接状态    =============== */
+A.link_cf9494_10:visited {
+	color:#e0dcd0;
+	TEXT-DECORATION: none;
+	font-size: 10px;
+	}
+A.link_cf9494_100:visited {
+	color:#4E4235;
+	TEXT-DECORATION: none;
+	font-size: 10px;
+	}
+A.link_cf9494_100:hover {
+	color:#FFF;
+	LEFT: 1px; 
+	POSITION: relative; 
+	TEXT-DECORATION: underline; 
+	TOP: 1px;
+	font-size: 10px;
+	}
+    /* ==========    鼠标经过，链接状态色    =============== */
+A.link_cf9494_10:hover {
+	color:#FFF;
+	LEFT: 1px; 
+	POSITION: relative; 
+	TEXT-DECORATION: underline; 
+	TOP: 1px;
+	font-size: 10px;
+	}
+	/* ==========    鼠标无点击过，链接状态    =============== */
+A.link_cf9494_10:active {
+	TEXT-DECORATION: none;
+	font-size: 10px;
+}
+	/* ==========    带链接状态    =============== */
+A.link_666_10:link {
+	TEXT-DECORATION: none;
+	font-size: 10px;
+	color:#666;
+	}
+	/* ==========    鼠标点击后，链接状态    =============== */
+A.link_666_10:visited {
+	color:#666;
+	TEXT-DECORATION: none;
+	font-size: 10px;
+	}
+    /* ==========    鼠标经过，链接状态色    =============== */
+A.link_666_10:hover {
+	color:#666;
+	LEFT: 1px; 
+	POSITION: relative; 
+	TEXT-DECORATION: underline; 
+	TOP: 1px;
+	font-size: 10px;
+	}
+	/* ==========    鼠标无点击过，链接状态    =============== */
+A.link_666_10:active {
+	TEXT-DECORATION: none;
+	font-size: 10px;
+}
+
+/****************************************************************************         网站通用样式 文字描边定义  */
+.Font_MB {
+	position:absolute;
+	padding:4px;
+	/* ==========    filter虑镜，描边颜色    =============== */
+	filter: 
+        Dropshadow(offx=1,offy=0,color=#FF0000)
+        Dropshadow(offx=0,offy=1,color=#FF0000)
+        Dropshadow(offx=0,offy=-1,color=#FF0000)
+        Dropshadow(offx=-1,offy=0,color=#FF0000);
+		/* ==========    字体，大小，颜色    =============== */
+	font-family: "宋体";
+	font-size: 12px;
+	font-weight: bold;
+	color: #000000;  
+}
+.font_Helvetica{
+	font-family:Helvetica, Arial, sans-serif;
+}
+.font_yh{
+	font-family:"Microsoft YaHei", "幑软雅黑", "黑体";
+	letter-spacing: 1px;
+}
+.font_36{
+	font-size:36px;
+	line-height:42	px;
+}
+.font_30{
+	font-size:30px;
+	line-height:36px;
+}
+.font_24{
+	font-size:24px;
+}
+.font_20{
+	font-size:20px;
+}
+.font_18{
+	font-size:18px;
+}
+.font_16{
+	font-size:16px;
+}
+.font_14{
+	font-size:14px;
+}
+.font_12{
+	font-size:10px;
+}
+.font_10{
+	font-size:10px;
+}
+.font_8{
+	font-size:8px;
+}
+.font_ffa38b{
+	color:#A68360;
+}
+.font_f6af80{
+	color:#A68360;
+}
+.font_ffF{
+	color:#FFF;
+}
+.font_666{
+	color:#666;
+}
+.font_666{
+	color:#666;
+}
+.font_333{
+	color:#333;
+}
+.font_000{
+	color:#000;
+}
+.font_ff9900 {
+	color:#FF9900;
+}
+.font_ff6600 {
+	color:#Ff6600;
+}
+.font_ff3300 {
+	color:#Ff3300;
+}
+.font_FF0000 {
+	color:#A19887;
+}
+.font_7f7f72 {
+	color:#7f7f72;
+}
+.font_line-height_30{
+	line-height:30px;
+}
+.font_line-height_24{
+	line-height:24px;
+}
+.font_line-height_20{
+	line-height:20px;
+}
+.font_line-height_16{
+	line-height:16px;
+}
+/****************************************************************************          其它样式定义  */
+.img_B {
+	border: 1px solid #dddddd;
+	padding:3px;
+}
+.menu_A {
+	background-image:url(../images/in_08.jpg);
+	background-repeat:no-repeat;
+	background-position: right;
+} 
+
+.margin_b_10 {
+	margin-bottom:0PX;
+}
+.margin_b_8 {
+	margin-bottom:5PX;
+}
+.margin_b_5 {
+	margin-bottom:5PX;
+}
+.padding_10 {
+	padding:10px;
+}
+.padding_5 {
+	padding:5px;
+}
+.padding_3 {
+	padding:3px;
+}
+.padding_T_5 {
+	padding-Top:5px;
+}
+.padding_T_8 {
+	padding-Top:8px;
+}
+.padding_L_10 {
+	padding-left:10px;
+}
+.padding_L_8 {
+	padding-left:8px;
+}
+.padding_L_5 {
+	padding-left:5px;
+}
+.TD0111{line-height:23px;
+        padding-right:10px;
+}	
+.TD01 {	background-color: #BFB7A4;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-width: 3px;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-style: solid;
+	border-right-color: #888273;
+	border-bottom-color: #888273;
+	border-left-color: #888273;
+	border-top-color: #5E5145;
+}
+.td02 {
+	border-bottom-width: 3px;
+	border-bottom-style: solid;
+	border-bottom-color: #760204;
+	margin-bottom:3px;
+}
+.td03 {
+	border: 1px solid #c9caca;
+}
+.dilist {
+	border-bottom-width: 1px;
+	border-bottom-style: dashed;
+	border-bottom-color: #666666;
+}
+.dilist2 {
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #dfdfdf;
+}
+
+.mune {
+	background-image:url(../images/left-menu2.gif);
+	background-repeat: no-repeat;
+	background-position: center;
+	padding:3px;
+	}
+.mune2 {
+	background-image:url(../images/left-menu1.gif);
+	background-repeat: no-repeat;
+	background-position: center;
+	padding:3px;
+	}
+.Case_TXT {
+	color:#3b3b35;
+	text-decoration: underline;
+}
+
+.thumbImageA{ max-width:198px;max-height:140px;} 
+　　*html.thumbImageA{width:expression(this.width>198&&this.width>this.height?198: auto);height:expression(this.height>140?140:auto);}
+
+.thumbImageB{ max-width:600px;max-height:400px;} 
+　　*html.thumbImageB{width:expression(this.width>600&&this.width>this.height?600:auto);height:expression(this.height>400?400:auto);}
+
+.thumbImageC{ max-width:115px;max-height:90px;} 
+　　*html.thumbImageC{width:expression(this.width>115&&this.width>this.height?115:auto);height:expression(this.height>90?90:auto);}
+
+.thumbImageD{ max-width:135px;max-height:110px;} 
+　　*html.thumbImageD{width:expression(this.width>135&&this.width>this.height?135:auto);height:expression(this.height>110?110:auto);}
+
+.thumbImageE{ max-width:110px;max-height:90px;} 
+　　*html.thumbImageE{width:expression(this.width>110&&this.width>this.height?110:auto);height:expression(this.height>90?90:auto);}
+
+
+/****************************************************************************      导航菜单定义  */
+*{margin:0px auto;}
+ 
+#ifocus { width:940px; height:180px; margin:2px;border:0px solid #DEDEDE; background:#CBC3AE; }
+#ifocus_pic { display:inline; position:relative; float:right; width:840px; height:180px; overflow:hidden; margin:0px 0 0 0px; }
+#ifocus_piclist { position:absolute; }
+#ifocus_piclist li { width:840px; height:180px; overflow:hidden; }
+#ifocus_piclist img { width:840px; height:180px; }
+#ifocus_btn { display:inline; float:left; width:100px; margin:0px 0px 0 0; }
+#ifocus_btn li { width:100px; height:46px; cursor:pointer; opacity:0.5; -moz-opacity:0.5; filter:alpha(opacity=50); }
+#ifocus_btn img { width:82px; height:40px; margin:0px 0 0 5px; }
+#ifocus_btn .current { background: url(../images/ifocus_btn_bg.gif) no-repeat; background-position: 10px; opacity:1; -moz-opacity:1; filter:alpha(opacity=100); }
+#ifocus_tx { position:absolute; left:0px; bottom:0px; color:#FFF; }
+#ifocus_tx .normal { display:none; }
+
+
+
+#lightbox{	position: absolute;	left: 0; width: 100%; z-index: 100; text-align: center; line-height: 0;}
+#lightbox img{ width: auto; height: auto;}
+#lightbox a img{ border: none; }
+
+#outerImageContainer{ position: relative; background-color: #fff; width: 250px; height: 250px; margin: 0 auto; }
+#imageContainer{ padding: 10px; }
+
+#loading{ position: absolute; top: 40%; left: 0%; height: 25%; width: 100%; text-align: center; line-height: 0; }
+#hoverNav{ position: absolute; top: 0; left: 0; height: 100%; width: 100%; z-index: 10; }
+#imageContainer>#hoverNav{ left: 0;}
+#hoverNav a{ outline: none;}
+
+#prevLink, #nextLink{ width: 49%; height: 100%; background-image: url(data:image/gif;base64,AAAA); /* Trick IE into showing hover */ display: block; }
+#prevLink { left: 0; float: left;}
+#nextLink { right: 0; float: right;}
+#prevLink:hover, #prevLink:visited:hover { background: url(../images/prevlabel.gif) left 15% no-repeat; }
+#nextLink:hover, #nextLink:visited:hover { background: url(../images/nextlabel.gif) right 15% no-repeat; }
+
+#imageDataContainer{ font: 12px Verdana, Helvetica, sans-serif; background-color: #fff; margin: 0 auto; line-height: 1.4em; overflow: auto; width: 100%	; }
+
+#imageData{	padding:0 10px; color: #666; }
+#imageData #imageDetails{ width: 70%; float: left; text-align: left; }	
+#imageData #caption{ font-weight: bold;	}
+#imageData #numberDisplay{ display: block; clear: left; padding-bottom: 1.0em;	}			
+#imageData #bottomNavClose{ width: 66px; float: right;  padding-bottom: 0.7em; outline: none;}	 	
+
+#overlay{ position: absolute; top: 0; left: 0; z-index: 90; width: 100%; height: 500px; background-color: #000; }
